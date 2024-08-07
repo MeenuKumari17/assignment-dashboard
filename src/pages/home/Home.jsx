@@ -15,7 +15,7 @@ import Feedback from '../../components/feedback/Feedback';
 const Home = () => {
   return (
     <div>
-      {/* <Header/> */}
+      <Header/>
       <div className="home">
       <Sidebar/>
       <div className="homeContainer">
