@@ -1,0 +1,46 @@
+
+.number{
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+.name{
+    font-weight: 600;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bill{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+
+
+.color{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+    &.Delivered{
+        background-color: #155145;
+        color: #04a777;
+    }
+
+    &.Pending{
+        background-color: #5d3137;
+        color: #af4c4c;
+    }
+
+    &.Cancelled{
+        background-color: #5d3137;
+        color: #af4c4c;
+    }
+}

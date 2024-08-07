@@ -1,0 +1,33 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+
+    .avatar{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        img{
+            width: 32px;
+        }
+    }
+
+    .rating{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        img{
+            width: 120px;
+        }
+
+        h5{
+            font-size: 18px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #3c3c4b;
+            padding-bottom: 12px;
+        }
+    }
+}

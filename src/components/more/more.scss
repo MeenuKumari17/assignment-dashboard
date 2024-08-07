@@ -1,0 +1,46 @@
+.more{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-align{
+        align-items: center;
+        display: flex;
+    }
+
+    .goal{
+        background-color: #5f3237;
+        color: #e86223;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+
+    .menu{
+        background-color: #214a60;
+        color: #239bd3;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+
+    .dish{
+        background-color: #293368;
+        color: #6e90fa;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+
+    span{
+        font-size: 24px;
+        margin-left: 20px;
+        color: #d4d5d7;
+        font-weight: 600;
+    }
+
+    .right-icon{
+        color: white;
+    }
+}
