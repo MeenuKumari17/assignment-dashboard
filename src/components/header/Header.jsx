@@ -5,7 +5,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import SearchIcon from '@mui/icons-material/Search';
-import MenuIcon from '@mui/icons-material/Menu';
+
 
 const Header = () => {
   return (
@@ -19,7 +19,6 @@ const Header = () => {
           </div>
           </div>
           <div className="items">
-            <MenuIcon className='menu-icon'/>
             <div className="item"><EmailOutlinedIcon className='icon'/></div>
             <div className="item"><SettingsOutlinedIcon className='icon'/></div>
             <div className="item"><NotificationsNoneOutlinedIcon className='icon'/>
