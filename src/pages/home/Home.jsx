@@ -15,10 +15,10 @@ import Feedback from '../../components/feedback/Feedback';
 const Home = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <div className="home">
       <Sidebar/>
-      {/* <div className="homeContainer">
+      <div className="homeContainer">
         <div className='left-container'>
         <div className="widgets">
             <Widget type="order"/>
@@ -49,7 +49,7 @@ const Home = () => {
           <Feedback type="goal"/>
         </div>
         </div>
-        </div> */}
+        </div>
       </div>
 
     </div>
